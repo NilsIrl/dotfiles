@@ -1,0 +1,13 @@
+{
+	"layer": "top",
+	"modules-left": ["sway/workspaces", "sway/mode"],
+	"modules-center": ["sway/window"],
+	"modules-right": ["pulseaudio", "clock", "tray"],
+	"sway/workspaces": {
+		"disable-scroll-wraparound": true
+	},
+	"clock": {
+		"interval": 1,
+		"format": "{:%F %T}"
+	}
+}
